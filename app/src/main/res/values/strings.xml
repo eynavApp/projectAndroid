@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">זמן בילוי</string>
+    <string name="navigation_home">דף הבית</string>
+    <string name="navigation_cities">ערים</string>
+    <string name="navigation_videos">סרטונים</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_weather_recommendation">המצת מזג האוויר</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tours_filtering">ToursFiltering</string>
+    <string name="title_activity_tours_map">Map</string>
+    <string name="saved_time_video_name">0</string>
+    <string-array name="HomeTypeTransportation">
+        <item>בחר תחבורה</item>
+        <item>הליכה</item>
+        <item>רכב</item>
+        <item>אופניים</item>
+    </string-array>
+    <string-array name="HomeTypeAttraction">
+        <item></item>
+    </string-array>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_city_info">cityInfo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+</resources>

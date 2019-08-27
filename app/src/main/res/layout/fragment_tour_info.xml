@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TourInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="16sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+        android:id="@+id/tvNameTourInfo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="שם אטרקציות/ סיורים מודרכים/ מסלולים" />
+
+    <LinearLayout
+        android:id="@+id/llImageAndInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/ivInfoTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/ic_launcher_background" />
+<ScrollView
+    android:layout_width="259dp"
+    android:layout_height="180dp">
+        <LinearLayout
+        android:id="@+id/llTourInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:layout_constraintHorizontal_bias="0.386"
+        android:paddingRight="8dp"
+    android:id="@+id/llTotvInformationTour">
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbars="vertical">
+
+        <TextView
+        android:id="@+id/tvInformationTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מידע אטרקציות/ סיורים מודרכים/ מסלולים"/>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:paddingRight="24dp"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabWaze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="50dp"
+            app:fabSize="auto"
+            app:maxImageSize="50dp"
+            app:srcCompat="@drawable/ic_icon_waze" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMoovit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="50dp"
+            app:fabSize="auto"
+            app:maxImageSize="50dp"
+            app:srcCompat="@drawable/icon_moovit"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="607dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabInfoWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="50dp"
+            app:fabSize="auto"
+            app:maxImageSize="50dp"
+            app:srcCompat="@drawable/icon_internet" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="50dp"
+            app:fabSize="auto"
+            app:maxImageSize="50dp"
+            app:srcCompat="@drawable/ic_icons_google_maps"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="610dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!--<TextView-->
+<!--android:id="@+id/tvNameTour"-->
+<!--android:textSize="16sp"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textAlignment="center"-->
+<!--android:layout_marginStart="8dp"-->
+<!--android:layout_marginTop="8dp"-->
+<!--android:layout_marginEnd="8dp"-->
+<!--android:layout_marginBottom="8dp"-->
+<!--android:text="שם אטרקציות/ סיורים מודרכים/ מסלולים"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal">-->
+<!--<LinearLayout-->
+    <!--android:id="@+id/llTourInfo"-->
+    <!--android:layout_width="259dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:orientation="vertical"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/llTotvInformationTour"-->
+    <!--app:layout_constraintLeft_toRightOf="@+id/ivInfoTour"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/tvNameTour">-->
+
+<!--</LinearLayout>-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/ivInfoTour"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/llTotvInformationTour"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/tvNameTour"-->
+    <!--app:layout_constraintVertical_bias="1.0"-->
+    <!--app:srcCompat="@drawable/ic_launcher_background"-->
+    <!--tools:ignore="RtlHardcoded" />-->
+<!--</LinearLayout>-->
+
+
+<!--<LinearLayout-->
+<!--android:id="@+id/llTotvInformationTour"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="149dp"-->
+<!--android:layout_marginLeft="8dp"-->
+<!--android:layout_marginTop="140dp"-->
+<!--android:layout_marginRight="8dp"-->
+<!--android:layout_marginBottom="25dp"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/fabWaze"-->
+<!--app:layout_constraintHorizontal_bias="0.386"-->
+<!--app:layout_constraintLeft_toLeftOf="parent"-->
+<!--app:layout_constraintRight_toRightOf="parent"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/llTourInfo">-->
+
+<!--<ScrollView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:scrollbarThumbVertical="@android:color/darker_gray"-->
+    <!--android:scrollbars="vertical">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvInformationTour"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingRight="16dp"-->
+        <!--android:text="מידע אטרקציות/ סיורים מודרכים/ מסלולים"-->
+        <!--tools:ignore="RtlHardcoded" />-->
+<!--</ScrollView>-->
+<!--</LinearLayout>-->
+
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/fabWaze"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginLeft="32dp"-->
+<!--android:layout_marginBottom="16dp"-->
+<!--android:clickable="true"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintLeft_toLeftOf="parent"-->
+<!--app:srcCompat="@drawable/ic_icon_waze"-->
+<!--app:fabSize="auto"-->
+<!--app:fabCustomSize="50dp"-->
+<!--app:backgroundTint="@color/white"-->
+<!--app:maxImageSize="50dp"/>-->
+
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/fabMoovit"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:clickable="true"-->
+<!--app:srcCompat="@drawable/icon_moovit"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintLeft_toRightOf="@id/fabWaze"-->
+<!--android:layout_marginLeft="32dp"-->
+<!--android:layout_marginBottom="16dp"-->
+<!--tools:layout_editor_absoluteX="0dp"-->
+<!--tools:layout_editor_absoluteY="607dp"-->
+<!--app:fabSize="auto"-->
+<!--app:backgroundTint="@color/white"-->
+<!--app:fabCustomSize="50dp"-->
+<!--app:maxImageSize="50dp"/>-->
+
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/fabInfoWeb"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginLeft="32dp"-->
+<!--android:layout_marginBottom="16dp"-->
+<!--android:clickable="true"-->
+<!--app:fabCustomSize="50dp"-->
+<!--app:fabSize="auto"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintLeft_toRightOf="@id/fabMoovit"-->
+<!--app:maxImageSize="50dp"-->
+<!--app:srcCompat="@drawable/icon_internet"-->
+<!--app:backgroundTint="@color/white" />-->
+
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/fabLocation"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:clickable="true"-->
+<!--app:srcCompat="@drawable/ic_icons_google_maps"-->
+<!--tools:layout_editor_absoluteX="260dp"-->
+<!--tools:layout_editor_absoluteY="610dp"-->
+<!--android:layout_marginLeft="32dp"-->
+<!--android:layout_marginBottom="16dp"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintLeft_toRightOf="@id/fabInfoWeb"-->
+<!--app:fabSize="auto"-->
+<!--app:fabCustomSize="50dp"-->
+<!--app:maxImageSize="50dp"-->
+<!--app:backgroundTint="@color/white"/>-->

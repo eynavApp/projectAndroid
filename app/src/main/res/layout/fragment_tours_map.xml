@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:svgimageview="http://schemas.android.com/apk/res-auto"
+    tools:context=".ToursMapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map" />
+
+    <RadioGroup
+        android:id="@+id/rgMapType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbSatalite"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:text="לווין" />
+
+        <RadioButton
+            android:id="@+id/rbHybrid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:text="רגיל ולווין" />
+
+        <RadioButton
+            android:id="@+id/rbStandart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:text="רגיל" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnLegend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:alpha="0.5"
+        android:text="מקרא" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/vLegend1"
+            android:layout_width="170dp"
+            android:layout_height="117dp"
+            android:alpha="0.5"
+            android:background="@android:color/darker_gray"
+            android:text="מקרא"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivIconTrack"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_icon_marke_green"
+            app:layout_constraintEnd_toEndOf="@+id/vLegend1"
+            app:layout_constraintTop_toTopOf="@+id/vLegend1" />
+
+        <ImageView
+            android:id="@+id/ivIconGuidedTours"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_icon_marke_blue"
+            app:layout_constraintEnd_toEndOf="@+id/vLegend1"
+            app:layout_constraintTop_toBottomOf="@+id/ivIconTrack" />
+
+        <ImageView
+            android:id="@+id/ivIconAttraction"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_icon_marker_red"
+            app:layout_constraintBottom_toBottomOf="@+id/vLegend1"
+            app:layout_constraintEnd_toEndOf="@+id/vLegend1"
+            app:layout_constraintTop_toBottomOf="@+id/ivIconGuidedTours" />
+
+        <TextView
+            android:id="@+id/tvIconGuidedTours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="סיורים מאורגנים"
+            app:layout_constraintBottom_toTopOf="@+id/tvIconAttraction"
+            app:layout_constraintEnd_toStartOf="@+id/ivIconGuidedTours"
+            app:layout_constraintStart_toStartOf="@+id/vLegend1"
+            app:layout_constraintTop_toTopOf="@+id/ivIconGuidedTours" />
+
+        <TextView
+            android:id="@+id/tvIconTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="מסלולים"
+            app:layout_constraintBottom_toBottomOf="@+id/ivIconTrack"
+            app:layout_constraintEnd_toStartOf="@+id/ivIconTrack"
+            app:layout_constraintStart_toStartOf="@+id/vLegend1"
+            app:layout_constraintTop_toTopOf="@+id/ivIconTrack" />
+
+        <TextView
+            android:id="@+id/tvIconAttraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="אטרקציות"
+            app:layout_constraintBottom_toBottomOf="@+id/ivIconAttraction"
+            app:layout_constraintEnd_toStartOf="@+id/ivIconAttraction"
+            app:layout_constraintStart_toStartOf="@+id/vLegend1"
+            app:layout_constraintTop_toTopOf="@+id/ivIconAttraction" />
+
+        <Button
+            android:id="@+id/btnCloseLegend1"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:text="X"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="@+id/vLegend1"
+            app:layout_constraintTop_toTopOf="@+id/vLegend1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--android:visibility="gone"-->
+</FrameLayout>

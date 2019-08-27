@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#D3D3D3">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מיין"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSortFinish"
+            android:text="סיים"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_dark"/>
+    </Toolbar>
+    <Button
+        android:id="@+id/btnSortDistanceCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מרחק ממרכז העיר"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/btnSortDistanceMyLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מרחק ממקומך הנוכחי"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
