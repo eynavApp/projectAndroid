@@ -13,13 +13,13 @@
 - The background image is random according to the images on the server.
 - On the home screen, a tab bar with home page, cities, videos.
 
-<img width="121" alt="Homescreen" src="https://user-images.githubusercontent.com/52885580/154802350-516eda4e-32a1-4267-8c4e-3774d86c732d.png">
+<img width="400" alt="Homescreen" src="https://user-images.githubusercontent.com/52885580/154802350-516eda4e-32a1-4267-8c4e-3774d86c732d.png">
 
 ### Main search screen:
 - Types of activity filtering: amount of hours available to you, type of transportation of the activity, accessibility, trip with children, area, consider the weather, type of trip.
 - By clicking on "DONE" the app finds you the activity that is especially suitable for you.
 
-<img width="329" alt="Main_search_screen" src="https://user-images.githubusercontent.com/52885580/154801582-b8b102ba-1df4-40a7-b56d-f703aa4de690.png">
+<img width="400" alt="Main_search_screen" src="https://user-images.githubusercontent.com/52885580/154801582-b8b102ba-1df4-40a7-b56d-f703aa4de690.png">
 
 ### Register or login to the app:
 - You can access the application through a gmail account.
@@ -31,7 +31,7 @@
 - Login to the app is only done if the email and password appear on the server.
 - In case the details are not filled in properly or filled in successfully a message will pop up to the user as the case may be.
 
-<img width="213" alt="Register_or_login " src="https://user-images.githubusercontent.com/52885580/154801760-de14cb7e-6a04-4c76-bae4-e6366038142a.png">
+<img width="400" alt="Register_or_login " src="https://user-images.githubusercontent.com/52885580/154801760-de14cb7e-6a04-4c76-bae4-e6366038142a.png">
 
 ### Cities screen:
 - You can search for a city using the search bar.
@@ -41,7 +41,7 @@
 - If a video is playing in the background the video will appear on the screen from the point where you stopped with the option to cancel the video.
 - In the cities screen, a tab bar with the home page, cities, videos.
 
-<img width="206" alt="Cities_screen" src="https://user-images.githubusercontent.com/52885580/154801812-7a991df8-9452-4ce1-84f5-3e6b06be5798.png">
+<img width="400" alt="Cities_screen" src="https://user-images.githubusercontent.com/52885580/154801812-7a991df8-9452-4ce1-84f5-3e6b06be5798.png">
 
 ### Favorites screen:
 - In each screen a stand can be made by the user.
@@ -50,13 +50,13 @@
 - In the user favorites bar, it is possible to view only the types of saved activities.
 - Clicking on one of the saved boxes will take you to the relevant page.
 
-<img width="175" alt="Favorites" src="https://user-images.githubusercontent.com/52885580/154801862-1cef9a62-44e0-4a6a-91ba-68fce9ea942b.png">
+<img width="400" alt="Favorites" src="https://user-images.githubusercontent.com/52885580/154801862-1cef9a62-44e0-4a6a-91ba-68fce9ea942b.png">
 
 ### Activity information screen:
 - This screen will display all the details that appear on the server about this activity, the height is responsively adjusted to the screen by scrolling.
 - 4 push buttons for: Website, Waze, Moovit, GoogleMap.
 
-<img width="112" alt="information" src="https://user-images.githubusercontent.com/52885580/154801934-5d712e43-86f3-443a-be20-80144148064e.png">
+<img width="400" alt="information" src="https://user-images.githubusercontent.com/52885580/154801934-5d712e43-86f3-443a-be20-80144148064e.png">
 
 ### City screen you selected - information:
 - On screen 2 information tabs or map.
@@ -69,7 +69,7 @@
 - Clicking Filter will display a filter selection screen and also some activities found from the filter.
 - Clicking on the Map tab refers to the map screen with all the activities in the current list (if filtering only the activities that appear in the list after filtering).
 - 
-<img width="251" alt="City_selected" src="https://user-images.githubusercontent.com/52885580/154802024-f209d5cb-7a50-44cc-9f20-38610fc01a68.png">
+<img width="400" alt="City_selected" src="https://user-images.githubusercontent.com/52885580/154802024-f209d5cb-7a50-44cc-9f20-38610fc01a68.png">
 
 ### City screen you selected - Map:
 - On screen 2 information tabs or map.
@@ -79,10 +79,10 @@
 - The user's current location is displayed by the button at the top of the screen.
 - Shown are 3 types of maps (standard, satellite, combined).
 - Clicking on the Information tab refers to the information screen with all the activities on the map screen.
-<img width="183" alt="City_screen_map" src="https://user-images.githubusercontent.com/52885580/154802078-cce57d7d-b1a2-4505-8e0f-0ddd8b501201.png">
+<img width="400" alt="City_screen_map" src="https://user-images.githubusercontent.com/52885580/154802078-cce57d7d-b1a2-4505-8e0f-0ddd8b501201.png">
 
 ## App video:
 
-[<img width="127" alt="video_android" src="https://user-images.githubusercontent.com/52885580/154802214-5201f496-13ae-45aa-b11c-3e8fca69538c.png">](https://drive.google.com/open?id=1X80zxE1I9S2U3AOO8jlzwZ0CZFZE3Roe)
+[<img width="400" alt="video_android" src="https://user-images.githubusercontent.com/52885580/154802214-5201f496-13ae-45aa-b11c-3e8fca69538c.png">](https://drive.google.com/open?id=1X80zxE1I9S2U3AOO8jlzwZ0CZFZE3Roe)
 
 
