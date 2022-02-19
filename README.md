@@ -13,7 +13,7 @@
 - The background image is random according to the images on the server.
 - On the home screen, a tab bar with home page, cities, videos.
 
-![Homescreen](https://user-images.githubusercontent.com/52885580/154801474-9e909b9d-fcd9-4d38-91cc-64c2360aecc1.png)
+<img width="121" alt="Homescreen" src="https://user-images.githubusercontent.com/52885580/154802350-516eda4e-32a1-4267-8c4e-3774d86c732d.png">
 
 ### Main search screen:
 - Types of activity filtering: amount of hours available to you, type of transportation of the activity, accessibility, trip with children, area, consider the weather, type of trip.
